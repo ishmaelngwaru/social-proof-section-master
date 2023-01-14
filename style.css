@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --grey: grey;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--white);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+h1{
+    color:var(--very-dark-magenta);
+    font-size: 2.5rem;
+}
+
+span{
+    padding-right: 10px;
+}
+
+p{
+    color: grey;
+    padding-top: 16px;
+    font-size: 1rem;
+}
+
+/*.ratings-star-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    width: 400px;
+    height:500px;
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+}*/
+
+.rate1{
+   border: 1px solid var(--dark-grayish-magenta);
+   width: 400px;
+   height: 50px;
+   position: relative; 
+   bottom: 170px;
+   left: 500px;
+   background-color: var(--dark-gra--dark-grayish-magenta);
+   border-radius: 10px;
+   box-shadow:  -11px -11px 16px #d5d5d5,11px 11px 16px #ebebeb;
+}
+
+.rate2{
+    border: 1px solid var(--dark-grayish-magenta);
+    width: 400px;
+    height: 50px;
+    position: relative; 
+    bottom: 140px;
+    left: 550px;
+    background-color: var(--dark-gra--dark-grayish-magenta);
+    border-radius: 10px;
+    box-shadow:  -11px -11px 16px #d5d5d5,11px 11px 16px #ebebeb;
+}
+
+.rate3{
+    border: 1px solid var(--dark-grayish-magenta);
+    width: 400px;
+    height: 50px;
+    position: relative; 
+    bottom: 110px;
+    left: 600px;
+    background-color: var(--dark-gra--dark-grayish-magenta);
+    border-radius: 10px;
+    box-shadow:  -11px -11px 16px #d5d5d5,11px 11px 16px #ebebeb;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-star{
+    position:relative;
+    top: 16px;
+    left: 20px;
+}
+
+.rateText{
+    position: absolute;
+    right: 17px;
+}
+
+.textFlex{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.recSections{
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+    position:relative;
+    bottom: 60px;
+}
+
+.textBox1{
+    border: 1px solid var(--very-dark-magenta);
+    width: 360px;
+    height: 200px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 19px;
+    box-shadow:  8px 8px 26px #707070,-8px -8px 26px #ffffff;
+    overflow:hidden;
+    padding: 20px;
+}
+
+.textBox2{
+    border: 1px solid var(--very-dark-magenta);
+    width: 360px;
+    height: 200px;
+    background-color: var(--very-dark-magenta);
+    position: relative;
+    bottom: -10px;
+    border-radius: 19px;
+    box-shadow:  8px 8px 26px #707070,-8px -8px 26px #ffffff;
+    overflow:hidden;
+    padding: 20px;
+}
+
+.textBox3{
+    border: 1px solid var(--very-dark-magenta);
+    width: 360px;
+    height: 200px;
+    background-color: var(--very-dark-magenta);
+    position: relative;
+    bottom: -20px;
+    border-radius: 19px;
+    box-shadow:  8px 8px 26px #707070,-8px -8px 26px #ffffff;
+    overflow:hidden;
+    padding: 20px;
+}
+.colton{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.irene{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.anne{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.ColtonSmith{
+    color: var(--dark-grayish-magenta);
+    font-size:0.9em;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    text-transform: capitalize;
+}
+
+.verified1{
+    color: var(--soft-pink);
+    font-size:0.7em;
+    position: absolute;
+    left: 90px;
+    top: 48px;
+    text-transform: capitalize;
+}
+.Para{
+    font-size: 1em;
+    color: var(--dark-grayish-magenta);
+}
+.IreneRoberts{
+    color: var(--dark-grayish-magenta);
+    font-size:0.9em;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    text-transform: capitalize;
+}
+.AnneWallace{
+    color: var(--dark-grayish-magenta);
+    font-size:0.9em;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    text-transform: capitalize;
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+    .rate1{
+        width: 300px;
+        left: 400px;
+    }
+    .rate2{
+        width: 300px;
+        left: 450px;
+    }
+    .rate3{
+        width: 300px;
+        left: 500px;
+    }
+    .icon-star{
+        width: 10px;
+        height: 10px;
+    }
+    .rateText{
+        font-size: 0.91rem;
+    }
+    .Para{
+        font-size: 0.91rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .rate1{
+        width: 250px;
+        left: 300px;
+    }
+    .rate2{
+        width: 250px;
+        left: 350px;
+    }
+    .rate3{
+        width: 250px;
+        left: 400px;
+    }
+    .icon-star{
+        width: 9px;
+        height: 9px;
+    }
+    .rateText{
+        font-size: 0.7rem;
+    }
+    .Para{
+        font-size: 0.82rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+   .colton{
+    width: 30px;
+    height: 30px;
+   }
+   .anne{
+    width: 30px;
+    height: 30px;
+   }
+   .irene{
+    width: 30px;
+    height: 30px;
+   }
+   .ColtonSmith{
+    left: 60px;
+   } 
+   .IreneRoberts{
+    left: 60px;
+   }
+   .AnneWallace{
+    left: 60px;
+   }
+   .verified1{
+    left: 60px;
+   }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    body{
+        padding-right: 0px;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 2rem;
+        position: relative;
+        left: 90px;
+    }
+    p{
+        font-size: 1.99rem;
+        position: relative;
+        left: 50px;
+        padding-bottom: 10px;
+    }
+    .rate1{
+        width: 250px;
+        left: 100px;
+        top: 20px;
+    }
+    .rate2{
+        width: 250px;
+        left: 100px;
+        top: 40px;
+    }
+    .rate3{
+        width: 250px;
+        left: 100px;
+        top: 60px;
+    }
+    .recSections{
+        flex-direction: column;
+        gap: 20px;
+        left: 80px;
+        top: 100px;
+    }
+    .textBox1{
+        width: 300px;
+        height: 150px;
+    }
+
+    .textBox2{
+        width: 300px;
+        height: 150px;
+    }
+    .textBox3{
+        width: 300px;
+        margin-bottom: 100px;
+        height: 150px;
+    }
+    .icon-star{
+        width: 9px;
+        height: 9px;
+    }
+    .rateText{
+        font-size: 0.69rem;
+        left: 100px;
+        top: 4px;
+        
+    }
+    .Para{
+        font-size: 0.92rem;
+        left: 0;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+   .colton{
+    width: 30px;
+    height: 30px;
+   }
+   .anne{
+    width: 30px;
+    height: 30px;
+   }
+   .irene{
+    width: 30px;
+    height: 30px;
+   }
+   .ColtonSmith{
+    left: 60px;
+   } 
+   .IreneRoberts{
+    left: 60px;
+   }
+   .AnneWallace{
+    left: 60px;
+   }
+   .verified1{
+    left: 60px;
+   }
+}
+@media only screen and (max-width: 600px){
+    body{
+        padding-right: 0px;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 2rem;
+        position: relative;
+        left: 90px;
+    }
+    p{
+        font-size: 1.99rem;
+        position: relative;
+        left: 50px;
+        padding-bottom: 10px;
+    }
+    .rate1{
+        width: 250px;
+        left: 100px;
+        top: 20px;
+    }
+    .rate2{
+        width: 250px;
+        left: 100px;
+        top: 40px;
+    }
+    .rate3{
+        width: 250px;
+        left: 100px;
+        top: 60px;
+    }
+    .recSections{
+        flex-direction: column;
+        gap: 20px;
+        left: 80px;
+        top: 100px;
+    }
+    .textBox1{
+        width: 300px;
+        height: 150px;
+    }
+
+    .textBox2{
+        width: 300px;
+        height: 150px;
+    }
+    .textBox3{
+        width: 300px;
+        margin-bottom: 100px;
+        height: 150px;
+    }
+    .icon-star{
+        width: 9px;
+        height: 9px;
+    }
+    .rateText{
+        font-size: 0.69rem;
+        left: 100px;
+        top: 4px;
+        
+    }
+    .Para{
+        font-size: 0.92rem;
+        left: 0;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+   .colton{
+    width: 30px;
+    height: 30px;
+   }
+   .anne{
+    width: 30px;
+    height: 30px;
+   }
+   .irene{
+    width: 30px;
+    height: 30px;
+   }
+   .ColtonSmith{
+    left: 60px;
+   } 
+   .IreneRoberts{
+    left: 60px;
+   }
+   .AnneWallace{
+    left: 60px;
+   }
+   .verified1{
+    left: 60px;
+   }
+}
+
+
+    
